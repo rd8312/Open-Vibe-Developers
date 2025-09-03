@@ -112,17 +112,16 @@
      - 快速嘗試與快速淘汰。  
      - 僅用在熟悉的程式碼庫中，以降低審查成本。  
 
- - Spec-Driven Development
-  - [claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow)  
-     - 把 Claude Code 轉化為可治理、可觀測的工作流：  
-       - **新功能**：Requirements → Design → Tasks → Implementation  
-       - **修 Bug**：Report → Analyze → Fix → Verify  
-     - YouTube: [Claude Code Spec Workflow 完整示範](https://www.youtube.com/watch?v=ruAy8oBR5lA&ab_channel=AI%E8%B6%85%E5%85%83%E5%9F%9F) 
-   - [claude-code-spec](https://github.com/gotalab/claude-code-spec)  
-     - 將 **規格驅動開發（Spec-Driven Development, SDD）** 與 **AI-DLC（AI 開發生命週期）** 整合至程式庫中，讓 Claude Code 以指令化方式在「需求 → 設計 → 任務 → 實作（含 TDD）」下運行。  
-    
+ - Spec-Driven Development:
+    - [claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow)  
+       - 把 Claude Code 轉化為可治理、可觀測的工作流：  
+         - **新功能**：Requirements → Design → Tasks → Implementation  
+         - **修 Bug**：Report → Analyze → Fix → Verify  
+       - YouTube: [Claude Code Spec Workflow 完整示範](https://www.youtube.com/watch?v=ruAy8oBR5lA&ab_channel=AI%E8%B6%85%E5%85%83%E5%9F%9F) 
+     - [claude-code-spec](https://github.com/gotalab/claude-code-spec)  
+       - 將 **規格驅動開發（Spec-Driven Development, SDD）** 與 **AI-DLC（AI 開發生命週期）** 整合至程式庫中，讓 Claude Code 以指令化方式在「需求 → 設計 → 任務 → 實作（含 TDD）」下運行。
 
-- Spec 驅動開發（Spec-Driven Development, SDD)對照表:
+  - Spec 驅動開發（Spec-Driven Development, SDD)對照表:
   
 | 面向                   | **Pimzino / claude-code-spec-workflow**                                                                                                                           | **gotalab / claude-code-spec（cc-sdd）**                                                                                                                          |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
